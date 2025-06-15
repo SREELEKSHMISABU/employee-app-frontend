@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom'; // ← changed
 import Navbar from './components/Navbar';
 import Dashboard from './components/Dashboard';
 import EmployeeForm from './components/EmployeeForm';
